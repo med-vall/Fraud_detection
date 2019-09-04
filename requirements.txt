@@ -7,7 +7,4 @@ pandas==0.25.0
 sklearn==0.0
 somewhere==0.0.1
 sqlparse==0.3.0
-system-service==0.3
-systemd-python==234
-unattended-upgrades==0.1
 urllib3==1.24.3
