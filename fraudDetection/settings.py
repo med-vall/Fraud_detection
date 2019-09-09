@@ -138,7 +138,7 @@ STATIC_URL = '/static/'
 
 # Extra lookup directories for collectstatic to find static files
 STATICFILES_DIRS = (
-    os.path.join(PROJECT_ROOT, '../polls/assets'),
+    os.path.join(PROJECT_ROOT, 'fraudDetection/polls/assets'),
 )
 
 #  Add configuration for static files storage using whitenoise
