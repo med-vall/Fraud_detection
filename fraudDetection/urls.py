@@ -23,6 +23,7 @@ from django.conf.urls.static import static
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('poll/', include('polls.urls'),name='uploa'),
+    path('', include('polls.urls')),
 
     path('polls/', include('polls.urls')),
 ]
