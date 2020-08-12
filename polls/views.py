@@ -52,7 +52,7 @@ def upload_file(request):
             fs = FileSystemStorage()
             name = fs.save(uploas_ffile.name, uploas_ffile)
             url = fs.url(name)
-            url = '/home/vallftp/files/version3/fraudDetection' + url
+            url = '/home/Videos/version4/fraudDetection' + url
             url.replace("b", '')
             posts = datfr(url)
             posts["DATEOPERATION"] = pd.to_datetime(posts["DATEOPERATION"])
